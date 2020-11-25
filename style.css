@@ -23,13 +23,23 @@
   align-items: center;
 }
 
-.time-select {
-  
-}
-.sound-picker {
- 
+.time-select button, 
+.sound-picker button {
+  color: white;
+  width: 30%;
+  height: 10%;
+  background: none;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.5s ease;
 }
 
+.time-select button:hover{
+  color: black;
+  background: white;
+}
 .player-container {
 
   position: relative;

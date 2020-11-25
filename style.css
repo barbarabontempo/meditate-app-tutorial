@@ -34,3 +34,8 @@
     .player-container{
       background-color: lightcoral ;
     }
+
+
+    video{
+      display: none;
+    }
